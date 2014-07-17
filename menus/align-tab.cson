@@ -1,15 +1,12 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
-'context-menu':
-  '.overlayer':
-    'Enable align-tab': 'align-tab:toggle'
-
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'align-tab'
+      'label': 'AlignTab'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'align-tab:toggle' }
+        # { 'label': 'AlignTab', 'command': 'align-tab:align-tab' }
+        { 'label': 'AlignTabEquals', 'command': 'align-tab:equals' }
       ]
     ]
   }

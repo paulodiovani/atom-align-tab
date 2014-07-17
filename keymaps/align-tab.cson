@@ -8,4 +8,5 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
 '.editor':
-  'ctrl-alt-a ctrl-alt-a': 'align-tab:align-tab'
+  # 'ctrl-alt-a ctrl-alt-a': 'align-tab:align-tab'
+  'ctrl-alt-a ctrl-alt-=': 'align-tab:equals'

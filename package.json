@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "AlignTab plugin for Atom editor",
   "activationEvents": [
-    "align-tab:align-tab"
+    "align-tab:equals"
   ],
   "repository": "https://github.com/atom/align-tab",
   "license": "MIT",

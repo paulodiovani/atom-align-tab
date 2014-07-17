@@ -1,0 +1,22 @@
+{
+  "name": "align-tab",
+  "main": "./lib/align-tab",
+  "version": "0.0.0",
+  "description": "AlignTab plugin for Atom editor",
+  "activationEvents": [
+    "align-tab:align-tab"
+  ],
+  "repository": "https://github.com/atom/align-tab",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-coffeelint": "0.0.10",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.11.0"
+  }
+}

@@ -5,6 +5,9 @@ module.exports =
     setParser: (@parser) ->
 
     format: (text) ->
+      # token must not be null
+      if not @parser.token? then return text
+
       longest = -1
       lines = text.split "\n"
 

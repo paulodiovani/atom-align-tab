@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/paulodiovani/atom-align-tab.svg?branch=master)](https://travis-ci.org/paulodiovani/atom-align-tab)
+
 # AlignTab plugin for Atom editor
 
 Base on [randy3k's AlignTab](https://github.com/randy3k/AlignTab).
